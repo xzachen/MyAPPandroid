@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--测试的是一周课表的视图-->
+    <!--android:id="@+id/timetable"-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+           <com.fedming.bottomnavigationdemo.view.TimetableView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+</RelativeLayout>
